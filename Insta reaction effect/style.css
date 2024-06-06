@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+body{
+    background-color: rgb(42, 43, 43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    height: 350px;
+    width: 300px;
+    border-radius: 12px;
+    background-color:white;
+    position: relative;
+    overflow: hidden;
+}
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+#container i{
+    color: #e93030;
+    font-size: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0); /*scale(n)=>muliples the size by n!?*/
+    opacity: 0;
+    transition: transform ease 0.45s;
+}
+.message{
+margin: 10px;
+font-size: 6.5px;
+font-weight: 700;
+font-family: cursive;
+color: #ffffff23;
+
+}
