@@ -37,7 +37,6 @@ width: 100%;
     object-position: center;
     border-radius: 20%;
     position: absolute;
-    translate: transform(-50%,-50%);
     opacity: 0;
     transition: all linear 0.2s;
 }
